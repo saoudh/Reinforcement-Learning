@@ -3,4 +3,4 @@
 A simple Implementation of MDP in Python 
 
 ### Q-Learning 
-Implementation of the Q-Learning Algorithm in PYthon
+Implementation of the Q-Learning Algorithm 
