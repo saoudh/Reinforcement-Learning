@@ -1,0 +1,866 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="8fc4b79e-e157-4f8f-8b9e-e9807d608460" name="Default Changelist" comment="" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CoverageDataManager">
+    <SUITE FILE_PATH="coverage/DDPG_master$plots.coverage" NAME="plots Coverage Results" MODIFIED="1542195887491" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/rlplots" />
+    <SUITE FILE_PATH="coverage/DDPG_master$ddpg.coverage" NAME="ddpg Coverage Results" MODIFIED="1541854599937" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/rlrunner" />
+    <SUITE FILE_PATH="coverage/DDPG_master$mbddpg.coverage" NAME="mbddpg Coverage Results" MODIFIED="1541147811695" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/rlrunner" />
+  </component>
+  <component name="FUSProjectUsageTrigger">
+    <session id="-1703097140">
+      <usages-collector id="statistics.lifecycle.project">
+        <counts>
+          <entry key="project.closed" value="23" />
+          <entry key="project.open.time.1" value="3" />
+          <entry key="project.open.time.10" value="1" />
+          <entry key="project.open.time.11" value="1" />
+          <entry key="project.open.time.12" value="3" />
+          <entry key="project.open.time.17" value="1" />
+          <entry key="project.open.time.2" value="4" />
+          <entry key="project.open.time.20" value="1" />
+          <entry key="project.open.time.23" value="1" />
+          <entry key="project.open.time.3" value="2" />
+          <entry key="project.open.time.37" value="1" />
+          <entry key="project.open.time.4" value="1" />
+          <entry key="project.open.time.5" value="1" />
+          <entry key="project.open.time.6" value="2" />
+          <entry key="project.open.time.7" value="4" />
+          <entry key="project.open.time.9" value="2" />
+          <entry key="project.open.time.98" value="1" />
+          <entry key="project.opened" value="29" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.open">
+        <counts>
+          <entry key="json" value="177" />
+          <entry key="npz" value="5" />
+          <entry key="npz1" value="4" />
+          <entry key="orig" value="1" />
+          <entry key="py" value="140" />
+          <entry key="txt" value="55" />
+          <entry key="txt1" value="4" />
+          <entry key="txt12" value="5" />
+          <entry key="txt123" value="2" />
+          <entry key="txt1234" value="1" />
+          <entry key="txt12345" value="1" />
+          <entry key="txt123456" value="1" />
+          <entry key="txt1234567" value="1" />
+          <entry key="txt12345678910" value="1" />
+          <entry key="txt123456789101112131415161718" value="1" />
+          <entry key="txt12345678910111213141516171819" value="1" />
+          <entry key="txt1234567891011121314151617181920" value="1" />
+          <entry key="txt123456789101112131415161718192021" value="2" />
+          <entry key="txt1234567891011121314151617181920212223" value="1" />
+          <entry key="txt1234567891011121314151617181920212223242526272829303132" value="1" />
+          <entry key="txt1234567891011121314151617181920212223242526272829303132333435363738394041424344454647484950515253545556575859606162636465666768697071727374757677787980818283848586878889909192939495969798" value="1" />
+          <entry key="txt_conf_interv" value="4" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.open">
+        <counts>
+          <entry key="JSON" value="177" />
+          <entry key="PLAIN_TEXT" value="93" />
+          <entry key="Python" value="140" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.edit">
+        <counts>
+          <entry key="dummy" value="8" />
+          <entry key="json" value="1677" />
+          <entry key="plots" value="7" />
+          <entry key="py" value="30515" />
+          <entry key="txt" value="2" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.edit">
+        <counts>
+          <entry key="JSON" value="1677" />
+          <entry key="PLAIN_TEXT" value="10" />
+          <entry key="Python" value="30522" />
+        </counts>
+      </usages-collector>
+    </session>
+    <session id="1307999402">
+      <usages-collector id="statistics.lifecycle.project">
+        <counts>
+          <entry key="project.open.time.2" value="1" />
+          <entry key="project.opened" value="1" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.open">
+        <counts>
+          <entry key="py" value="2" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.open">
+        <counts>
+          <entry key="Python" value="2" />
+        </counts>
+      </usages-collector>
+    </session>
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/rlplots/plots.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="2895">
+              <caret line="198" column="11" selection-start-line="198" selection-start-column="11" selection-end-line="198" selection-end-column="11" />
+              <folding>
+                <element signature="e#0#31#0" expanded="true" />
+                <marker date="1544976275471" expanded="true" signature="5651:5660" ph="..." />
+                <marker date="1544976275471" expanded="true" signature="19435:19440" ph="..." />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/rllab/utils.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="196">
+              <caret line="50" column="6" selection-start-line="50" selection-start-column="6" selection-end-line="50" selection-end-column="6" />
+              <folding>
+                <element signature="e#0#11#0" expanded="true" />
+                <marker date="1543700978077" expanded="true" signature="3248:3253" ph="..." />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/rllab/rldataset.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="30">
+              <caret line="2" lean-forward="true" selection-start-line="2" selection-end-line="2" />
+              <folding>
+                <element signature="e#0#18#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/rlrunner/ddpg.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="178">
+              <caret line="13" selection-start-line="13" selection-end-line="13" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/settings/ddpg_with_bn_1_layer.json">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="255">
+              <caret line="17" column="22" selection-start-line="17" selection-start-column="22" selection-end-line="17" selection-end-column="22" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/settings/ddpg_without_bn_1_layer.json">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1365">
+              <caret line="91" column="42" selection-start-line="91" selection-start-column="42" selection-end-line="91" selection-end-column="42" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Python Script" />
+      </list>
+    </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>is_eval</find>
+      <find>before</find>
+      <find>render</find>
+      <find>differen</find>
+      <find>getj</find>
+      <find>print</find>
+      <find>print_v</find>
+      <find>runner</find>
+      <find>exploit</find>
+      <find>log_dir</find>
+      <find>save_np_arrays</find>
+      <find>save</find>
+      <find>save_np_arra</find>
+      <find>save_np_ar</find>
+      <find>save_np_array</find>
+      <find>mydi</find>
+      <find>log_fil</find>
+      <find>log_files(</find>
+      <find>critic</find>
+      <find>and</find>
+      <find>action</find>
+      <find>_prepro</find>
+      <find>[neurons]</find>
+      <find>numb</find>
+      <find>reward_mean]</find>
+      <find>reward_mean</find>
+      <find>enumerate k</find>
+      <find>critic?</find>
+      <find>alg</find>
+      <find>logfiles</find>
+    </findStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/settings/ddpg_without_bn_2_layers.json" />
+        <option value="$PROJECT_DIR$/settings/mbddpg_with_bn_2_layers.json" />
+        <option value="$PROJECT_DIR$/settings/mbddpg_without_bn_2_layers.json" />
+        <option value="$PROJECT_DIR$/settings/ddpg/ddpg_with_bn_1_layer.json" />
+        <option value="$PROJECT_DIR$/rllab/model.py" />
+        <option value="$PROJECT_DIR$/settings/ddpg/ddpg_with_bn_1_layer_50_neurons.json" />
+        <option value="$PROJECT_DIR$/settings/ddpg/ddpg_with_bn_1_layer_75_neurons.json" />
+        <option value="$PROJECT_DIR$/settings/ddpg/ddpg_with_bn_1_layer_125_neurons.json" />
+        <option value="$PROJECT_DIR$/settings/ddpg/ddpg_with_bn_1_layer_150_neurons.json" />
+        <option value="$PROJECT_DIR$/settings/ddpg/ddpg_with_bn_1_layer_175_neurons.json" />
+        <option value="$PROJECT_DIR$/settings/ddpg/ddpg_with_bn_1_layer_200_neurons.json" />
+        <option value="$PROJECT_DIR$/settings/mbddpg/mbddpg_with_bn_1_layer_75_neurons.json" />
+        <option value="$PROJECT_DIR$/settings/mbddpg/mbddpg_with_bn_1_layer_100_neurons.json" />
+        <option value="$PROJECT_DIR$/settings/mbddpg/mbddpg_with_bn_1_layer_125_neurons.json" />
+        <option value="$PROJECT_DIR$/settings/mbddpg/mbddpg_with_bn_1_layer_150_neurons.json" />
+        <option value="$PROJECT_DIR$/settings/mbddpg/mbddpg_with_bn_1_layer_175_neurons.json" />
+        <option value="$PROJECT_DIR$/settings/mbddpg/mbddpg_with_bn_1_layer_200_neurons.json" />
+        <option value="$PROJECT_DIR$/settings/ddpg/ddpg_with_bn_1_layer_25_neurons.json" />
+        <option value="$PROJECT_DIR$/settings/mbddpg/mbddpg_with_bn_1_layer_25_neurons.json" />
+        <option value="$PROJECT_DIR$/settings/mbddpg_without_bn.json" />
+        <option value="$PROJECT_DIR$/settings/ddpg_without_bn_1_layer_75_neurons.json" />
+        <option value="$PROJECT_DIR$/settings/ddpg_without_bn_1_layer_50_neurons.json" />
+        <option value="$PROJECT_DIR$/rlplots/__init__.py" />
+        <option value="$PROJECT_DIR$/rlexperiments/__init__.py" />
+        <option value="$PROJECT_DIR$/settings/ddpg_without_bn_1_layer_100_neurons.json" />
+        <option value="$PROJECT_DIR$/settings/ddpg_without_bn_1_layer_25_neurons.json" />
+        <option value="$PROJECT_DIR$/settings/mbddpg_without_bn_1_layer_100_neurons.json" />
+        <option value="$PROJECT_DIR$/rllab/__init__.py" />
+        <option value="$PROJECT_DIR$/rlrunner/mbddpg.py" />
+        <option value="$PROJECT_DIR$/settings/mbddpg_with_bn_1_layer_25_neurons.json" />
+        <option value="$PROJECT_DIR$/settings/ddpg_without_bn_1_layer_150_neurons.json" />
+        <option value="$PROJECT_DIR$/settings/mbddpg_with_bn_1_layer_75_neurons.json" />
+        <option value="$PROJECT_DIR$/settings/mbddpg_with_bn_1_layer_125_neurons.json" />
+        <option value="$PROJECT_DIR$/settings/mbddpg_without_bn_1_layer_75_neurons.json" />
+        <option value="$PROJECT_DIR$/rllab/utils.py" />
+        <option value="$PROJECT_DIR$/settings/mbddpg_with_bn_1_layer_50_neurons.json" />
+        <option value="$PROJECT_DIR$/settings/ddpg_without_bn_1_layer_old.json" />
+        <option value="$PROJECT_DIR$/settings/mbddpg_without_bn_1_layer_old.json" />
+        <option value="$PROJECT_DIR$/settings/mbddpg_with_bn_1_layer_old.json" />
+        <option value="$PROJECT_DIR$/settings/ddpg_with_bn_1_layer_25_neurons.json" />
+        <option value="$PROJECT_DIR$/settings/ddpg_with_bn_1_layer_50_neurons.json" />
+        <option value="$PROJECT_DIR$/settings/mbddpg_without_bn_1_layer_50_neurons.json" />
+        <option value="$PROJECT_DIR$/rlexperiments/experiment.py" />
+        <option value="$PROJECT_DIR$/settings/ddpg_without_bn_1_layer.json" />
+        <option value="$PROJECT_DIR$/settings/mbddpg_with_bn_1_layer.json" />
+        <option value="$PROJECT_DIR$/settings/mbddpg_without_bn_1_layer.json" />
+        <option value="$PROJECT_DIR$/settings/ddpg_with_bn_1_layer.json" />
+        <option value="$PROJECT_DIR$/settings/ddpg_with_bn_1_layer_75_neurons.json" />
+        <option value="$PROJECT_DIR$/rlplots/plots.py" />
+        <option value="$PROJECT_DIR$/rllab/rldataset.py" />
+        <option value="$PROJECT_DIR$/rlrunner/ddpg.py" />
+      </list>
+    </option>
+  </component>
+  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsGulpfileManager">
+    <detection-done>true</detection-done>
+    <sorting>DEFINITION_ORDER</sorting>
+  </component>
+  <component name="ProjectFrameBounds">
+    <option name="y" value="23" />
+    <option name="width" value="1280" />
+    <option name="height" value="735" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="DDPG-master" type="b2602c69:ProjectViewProjectNode" />
+              <item name="DDPG-master" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="DDPG-master" type="b2602c69:ProjectViewProjectNode" />
+              <item name="DDPG-master" type="462c0819:PsiDirectoryNode" />
+              <item name="logfiles" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="DDPG-master" type="b2602c69:ProjectViewProjectNode" />
+              <item name="DDPG-master" type="462c0819:PsiDirectoryNode" />
+              <item name="rllab" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="DDPG-master" type="b2602c69:ProjectViewProjectNode" />
+              <item name="DDPG-master" type="462c0819:PsiDirectoryNode" />
+              <item name="rlplots" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="DDPG-master" type="b2602c69:ProjectViewProjectNode" />
+              <item name="DDPG-master" type="462c0819:PsiDirectoryNode" />
+              <item name="rlrunner" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="DDPG-master" type="b2602c69:ProjectViewProjectNode" />
+              <item name="DDPG-master" type="462c0819:PsiDirectoryNode" />
+              <item name="settings" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="Scope" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="run.code.analysis.last.selected.profile" value="pProject Default" />
+    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/settings" />
+      <recent name="$PROJECT_DIR$/settings/ddpg" />
+      <recent name="$PROJECT_DIR$/settings/mbddpg" />
+      <recent name="$PROJECT_DIR$/rlplots" />
+      <recent name="$PROJECT_DIR$/rlrunner/default" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/logfiles/qube/ddpg_with_bn_1_layer_25_neurons" />
+      <recent name="$PROJECT_DIR$/logfiles/qube" />
+      <recent name="$PROJECT_DIR$/settings" />
+      <recent name="$PROJECT_DIR$/settings/mbddpg" />
+      <recent name="$PROJECT_DIR$/settings/ddpg" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="Python.plots">
+    <configuration default="true" type="PythonConfigurationType" factoryName="Python">
+      <module name="DDPG-master" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="true" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="ddpg" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="DDPG-master" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+        <env name="PATH" value="/usr/local/bin:/usr/local/opt/qt5/bin:$PATH" />
+        <env name="PKG_CONFIG_PATH" value="/usr/local/opt/qt5/lib/pkgconfig" />
+      </envs>
+      <option name="SDK_HOME" value="$PROJECT_DIR$/../../../python3.6_env/bin/python" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/rlrunner" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/rlrunner/ddpg.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="experiment" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="DDPG-master" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="$PROJECT_DIR$/../../../python3.6_env/bin/python" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/rlexperiments" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/rlexperiments/experiment.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="true" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="mbddpg" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="DDPG-master" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="$PROJECT_DIR$/../../../python3.6_env/bin/python" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/rlrunner" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/rlrunner/mbddpg.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="plot_call" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="DDPG-master" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="$PROJECT_DIR$/../../../python3.6_env/bin/python" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/rllab" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/rlplots/plot_call.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="true" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="plots" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="DDPG-master" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="$PROJECT_DIR$/../../../python3.6_env/bin/python" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/rlplots" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/rlplots/plots.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="true" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <list>
+      <item itemvalue="Python.ddpg" />
+      <item itemvalue="Python.mbddpg" />
+      <item itemvalue="Python.experiment" />
+      <item itemvalue="Python.plots" />
+      <item itemvalue="Python.plot_call" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Python.plots" />
+        <item itemvalue="Python.experiment" />
+        <item itemvalue="Python.ddpg" />
+        <item itemvalue="Python.plot_call" />
+        <item itemvalue="Python.mbddpg" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="8fc4b79e-e157-4f8f-8b9e-e9807d608460" name="Default Changelist" comment="" />
+      <created>1539967692856</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1539967692856</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="TodoView">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="0" y="23" width="1280" height="735" extended-state="0" />
+    <editor active="true" />
+    <layout>
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49534884" visible="true" weight="0.2406672" />
+      <window_info id="Structure" order="1" sideWeight="0.5046512" side_tool="true" weight="0.3101777" />
+      <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.3255814" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.2967033" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.396875" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" weight="0.32819724" />
+      <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="8" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Database Changes" order="9" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
+      <window_info anchor="bottom" id="Terminal" order="11" weight="0.32928944" />
+      <window_info anchor="bottom" id="Python Console" order="12" visible="true" weight="0.45101088" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" auto_hide="true" x="274" y="69" width="732" height="635" id="SciView" order="3" sideWeight="0.4992126" type="WINDOWED" weight="0.5912762" />
+      <window_info anchor="right" id="Database" order="4" />
+      <window_info anchor="right" x="0" y="0" width="270" height="523" id="Documentation" order="5" sideWeight="0.5007874" side_tool="true" weight="0.5743134" />
+    </layout>
+    <layout-to-restore>
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49534884" visible="true" weight="0.3463066" />
+      <window_info id="Structure" order="1" sideWeight="0.5046512" side_tool="true" weight="0.3101777" />
+      <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.3255814" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.2967033" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.396875" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" weight="0.32819724" />
+      <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="8" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Database Changes" order="9" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
+      <window_info anchor="bottom" id="Terminal" order="11" weight="0.32928944" />
+      <window_info anchor="bottom" id="Python Console" order="12" visible="true" weight="0.27527216" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" auto_hide="true" x="274" y="69" width="732" height="635" id="SciView" order="3" sideWeight="0.4992126" type="WINDOWED" weight="0.5912762" />
+      <window_info anchor="right" id="Database" order="4" />
+      <window_info anchor="right" x="0" y="0" width="270" height="523" id="Documentation" order="5" sideWeight="0.5007874" side_tool="true" weight="0.5743134" />
+    </layout-to-restore>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="debuggerHistoryManager">
+    <expressions id="evaluateCodeFragment">
+      <expression>
+        <expression-string>for i,k in enumerate(self.log_files[1]
+          ):
+    print(i)</expression-string>
+        <language-id>Python</language-id>
+        <evaluation-mode>CODE_FRAGMENT</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>for i,k in enumerate(self.log_files[1]
+          ):
+    print(&quot;i&quot;)</expression-string>
+        <language-id>Python</language-id>
+        <evaluation-mode>CODE_FRAGMENT</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>for i,k in enumerate(self.log_files[1]
+          )</expression-string>
+        <language-id>Python</language-id>
+        <evaluation-mode>CODE_FRAGMENT</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>enumerate(self.log_files[1]
+          )</expression-string>
+        <language-id>Python</language-id>
+        <evaluation-mode>CODE_FRAGMENT</evaluation-mode>
+      </expression>
+    </expressions>
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/logfiles/pendelum/ddpg_without_bn_1_layer_50_neurons/actor_error.txt12345" />
+    <entry file="file://$PROJECT_DIR$/logfiles/pendelum/ddpg_without_bn_1_layer_50_neurons/actor_error.txt1234" />
+    <entry file="file://$PROJECT_DIR$/logfiles/pendelum/ddpg_without_bn_1_layer_50_neurons/actor_error.txt123" />
+    <entry file="file://$PROJECT_DIR$/logfiles/pendelum/ddpg_without_bn_1_layer_50_neurons/actor_error.txt12" />
+    <entry file="file://$PROJECT_DIR$/logfiles/pendelum/ddpg_without_bn_1_layer_50_neurons/actor_error.txt1" />
+    <entry file="file://$PROJECT_DIR$/logfiles/pendelum/ddpg_without_bn_1_layer_50_neurons/actor_error.txt" />
+    <entry file="file://$PROJECT_DIR$/logfiles/pendelum/ddpg_without_bn_1_layer_100_neurons/reward.txt12" />
+    <entry file="file://$PROJECT_DIR$/logfiles/pendelum/ddpg_without_bn_1_layer_100_neurons/reward.txt1" />
+    <entry file="file://$PROJECT_DIR$/logfiles/pendelum/ddpg_without_bn_1_layer_100_neurons/reward.txt" />
+    <entry file="file://$PROJECT_DIR$/logfiles/pendelum/ddpg_without_bn_1_layer_100_neurons/actor_error.txt1234567891011121314151617181920212223242526272829303132333435363738394041424344454647484950515253545556575859606162636465666768697071727374757677787980818283848586878889909192939495969798" />
+    <entry file="file://$PROJECT_DIR$/settings/mbddpg_without_bn_1_layer_125_neurons.json">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/rllab/__init__.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="7" column="27" selection-start-line="7" selection-start-column="27" selection-end-line="7" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/logfiles/pendelum/mbddpg_without_bn_1_layer_25_neurons/reward_error.npz1" />
+    <entry file="file://$PROJECT_DIR$/logfiles/pendelum/mbddpg_without_bn_1_layer_25_neurons/values.npz" />
+    <entry file="file://$PROJECT_DIR$/logfiles/pendelum/mbddpg_without_bn_1_layer_25_neurons/reward.npz1" />
+    <entry file="file://$PROJECT_DIR$/logfiles/pendelum/mbddpg_without_bn_1_layer_25_neurons/reward_error.npz" />
+    <entry file="file://$PROJECT_DIR$/rlplots/__init__.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret selection-end-line="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/logfiles/pendelum/mbddpg_without_bn_1_layer_25_neurons/actor_error.npz" />
+    <entry file="file://$PROJECT_DIR$/logfiles/pendelum/mbddpg_without_bn_1_layer_25_neurons/actor_error.npz1" />
+    <entry file="file://$PROJECT_DIR$/logfiles/pendelum/mbddpg_without_bn_1_layer_50_neurons/actor_error.npz" />
+    <entry file="file://$PROJECT_DIR$/settings/mbddpg_with_bn_1_layer_200_neurons.json">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../../../python3.6_env/lib/python3.6/site-packages/IPython/core/interactiveshell.py" />
+    <entry file="file://$PROJECT_DIR$/settings/ddpg_without_bn_1_layer_150_neurons.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-514" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/settings/mbddpg_with_bn_1_layer_150_neurons.json">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/settings/mbddpg_without_bn_1_layer_75_neurons.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-11" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/settings/mbddpg_with_bn_1_layer_75_neurons.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-68" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/settings/mbddpg_with_bn_1_layer_125_neurons.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="373" selection-start-column="373" selection-end-column="373" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/rlrunner/mbddpg.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2610">
+          <caret line="182" column="26" selection-start-line="182" selection-start-column="26" selection-end-line="182" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/rllab/DDPG.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="263">
+          <caret line="70" column="23" lean-forward="true" selection-start-line="70" selection-start-column="23" selection-end-line="70" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/settings/mbddpg_with_bn_1_layer_50_neurons.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="2060" selection-start-column="2060" selection-end-column="2060" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/settings/mbddpg_with_bn_1_layer_25_neurons.json">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/rllab/model.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="3240">
+          <caret line="219" column="22" selection-start-line="219" selection-start-column="22" selection-end-line="219" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/settings/mbddpg_without_bn_1_layer_25_neurons.json">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/settings/ddpg_with_bn_1_layer_25_neurons.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1054">
+          <caret line="8" column="19" selection-start-line="8" selection-start-column="19" selection-end-line="8" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/settings/ddpg_with_bn_1_layer_50_neurons.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1114" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/settings/ddpg_with_bn_1_layer_old.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="206">
+          <caret line="93" selection-start-line="93" selection-end-line="99" selection-end-column="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/settings/ddpg_without_bn_1_layer_old.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="303">
+          <caret line="94" selection-start-line="94" selection-end-line="94" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/settings/mbddpg_without_bn_1_layer_50_neurons.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="161">
+          <caret line="135" column="51" lean-forward="true" selection-start-line="135" selection-start-column="51" selection-end-line="135" selection-end-column="51" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/settings/mbddpg_without_bn_1_layer_old.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="408">
+          <caret line="147" column="1" selection-start-line="147" selection-start-column="1" selection-end-line="147" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/settings/mbddpg_with_bn_1_layer.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="243">
+          <caret line="136" column="42" selection-start-line="136" selection-start-column="42" selection-end-line="136" selection-end-column="42" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/rlexperiments/experiment.py.orig">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/settings/mbddpg_with_bn_1_layer_old.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="368">
+          <caret line="139" selection-start-line="139" selection-end-line="144" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/settings/mbddpg_without_bn_1_layer.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="338">
+          <caret line="136" column="44" selection-start-line="136" selection-start-column="44" selection-end-line="136" selection-end-column="44" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/rlexperiments/experiment.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="675">
+          <caret line="48" column="55" selection-start-line="48" selection-start-column="55" selection-end-line="48" selection-end-column="55" />
+          <folding>
+            <element signature="e#1#10#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/rlplots/plots.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2895">
+          <caret line="198" column="11" selection-start-line="198" selection-start-column="11" selection-end-line="198" selection-end-column="11" />
+          <folding>
+            <element signature="e#0#31#0" expanded="true" />
+            <marker date="1544976275471" expanded="true" signature="5651:5660" ph="..." />
+            <marker date="1544976275471" expanded="true" signature="19435:19440" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/settings/ddpg_with_bn_1_layer_75_neurons.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="45">
+          <caret line="3" column="16" selection-start-line="3" selection-start-column="16" selection-end-line="3" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/settings/ddpg_with_bn_1_layer.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="17" column="22" selection-start-line="17" selection-start-column="22" selection-end-line="17" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/settings/ddpg_without_bn_1_layer.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1365">
+          <caret line="91" column="42" selection-start-line="91" selection-start-column="42" selection-end-line="91" selection-end-column="42" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/rllab/utils.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="196">
+          <caret line="50" column="6" selection-start-line="50" selection-start-column="6" selection-end-line="50" selection-end-column="6" />
+          <folding>
+            <element signature="e#0#11#0" expanded="true" />
+            <marker date="1543700978077" expanded="true" signature="3248:3253" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/rllab/rldataset.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="2" lean-forward="true" selection-start-line="2" selection-end-line="2" />
+          <folding>
+            <element signature="e#0#18#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/rlrunner/ddpg.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="178">
+          <caret line="13" selection-start-line="13" selection-end-line="13" />
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>

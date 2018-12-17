@@ -1,0 +1,102 @@
+{
+  "environment": {
+    "name": "Pendulum-v0",
+    "action_bound": 5.0,
+    "gamma": 0.99,
+    "render": false,
+    "render_eval": false
+  },
+  "random_seed": 5,
+  "memory": {
+    "type": "replay",
+    "capacity": 100000,
+    "batch_size": 1000
+  },
+  "ddpg": {
+    "tau": 0.01,
+    "train_steps": 1000,
+    "max_episodes": 20,
+    "exploration_steps": 1000,
+    "evaluation_steps": 1000,
+    "is_evaluation": true
+  },
+  "critic_network": {
+    "learning_rate": 0.01,
+    "differential": false,
+    "layer_nr_concat": 0,
+    "L2_regularization": {
+      "used": false,
+      "weight_decay": 0.01
+    },
+    "discount_factor": 0.99,
+    "loss_function": "MSE",
+    "layers": {
+      "layer0": 25
+    },
+    "layers_batch_norm": {
+      "input_layer": false,
+      "layer0": false
+    },
+    "layers_activation_fn": {
+      "layer0": "relu"
+    },
+    "layers_weight_fn": {
+      "layer0": "sqrt"
+    },
+    "output_layer": {
+      "activation_fn": "None",
+      "weight": 0.003
+    }
+  },
+  "actor_network": {
+    "learning_rate": 0.001,
+    "differential": false,
+    "layers": {
+      "layer0": 25
+    },
+    "layers_batch_norm": {
+      "input_layer": true,
+      "layer0": true
+    },
+    "layers_activation_fn": {
+      "layer0": "relu"
+    },
+    "layers_weight_fn": {
+      "layer0": "sqrt"
+    },
+    "output_layer": {
+      "activation_fn": "tanh",
+      "limit": true,
+      "weight": 0.003
+    }
+  },
+  "noise": {
+    "type": "ornstein_uhlenbeck",
+    "alpha": 0.15,
+    "beta": 0.2,
+    "epsilon_decay": 1.0
+  },
+  "summary": {
+    "dir": "./results5/{}/{}/tf_ddpg",
+    "labels": [
+      "graph",
+      "total-loss"
+    ]
+  },
+  "settings": {
+    "n_episodes": 200,
+    "saving": null
+  },
+  "algorithm": {
+    "type": "ddpg_with_bn_1_layer",
+    "name_formatted":"DDPG with BN, 1 layer",
+    "tau": 0.01
+  },
+  "plot": {
+    "actor_error": "actor_error.npz",
+    "critic_error": "critic_error.npz",
+    "values": "values.npz",
+    "reward": "reward.npz",
+    "reward_eval": "reward_eval.npz"
+  }
+}
