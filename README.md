@@ -13,7 +13,7 @@ The error of the policy is depicted as Actor- Error and the error of the Value-F
 Parameters. The neural network has 25 neurons and 1 layer and runs over 100 episodes. Batch Normalization is used too for stabilization. 
 
 ### 3.2 Performance 
-The algorithm converges after 60 episodes with only 25 neurons. With higher number of neurons like 150 neurons it will converge much faster. 
+For testing purposes only 25 neurons and 1 layer is used. It converges after 60 episodes. With 150 neurons it converges after under 10 episodes with this implementation. 
 
 ![pendulum performance](https://github.com/saoudh/Reinforcement-Learning/blob/master/DDPG-master/screenshots/pendulum-performance.png)
 
