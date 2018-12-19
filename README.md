@@ -9,11 +9,11 @@ Implementation of the Q-Learning Algorithm
 This implementation is based on the paper CONTINUOUS CONTROL WITH DEEP REINFORCEMENT LEARNING of Timothy P. Lillicrap et al., 2015 https://arxiv.org/pdf/1509.02971.pdf
 
 ### 3.1 Evaluation
-The error of the policy is depicted as Actor- Error and the error of the Value-Function as Critic-Error. Also the Value-Function and reward (both, during training and evaluation) curve are plotted too.
-Parameters. The neural network has 25 neurons and 1 layer and runs over 100 episodes. Batch Normalization is used too for stabilization. 
+The error of the policy is depicted as actor-error and the error of the value-function as critic-error. Also the value-function and reward (both, during training and evaluation) curve are plotted too.
+Parameters: The neural network has 25 neurons and 1 layer and runs over 100 episodes. Batch Normalization is used too for stabilization. 
 
 ### 3.2 Performance 
-For testing purposes only 25 neurons and 1 layer is used. It converges after 60 episodes. With 150 neurons it converges after under 10 episodes with this implementation. 
+For testing purposes only 25 neurons and 1 layer is used in this experiment and it converges after 60 episodes. With 150 neurons it even converges after less then 10 episodes with this implementation. 
 
 ![pendulum performance](https://github.com/saoudh/Reinforcement-Learning/blob/master/DDPG-master/screenshots/pendulum-performance.png)
 
